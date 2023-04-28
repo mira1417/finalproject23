@@ -26,7 +26,7 @@ namespace finalproject23
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            TypeOfRecipes recipe = new TypeOfRecipes();
+            TypeofRecipes recipe = new TypeofRecipes();
             recipe.Show();
             this.Close();
         }

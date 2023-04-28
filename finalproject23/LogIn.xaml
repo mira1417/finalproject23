@@ -29,7 +29,7 @@
         <Label Content="Password:" Foreground=" Black" FontSize="20" Grid.Row="5" HorizontalAlignment=" Center" FontFamily="Monospac821 BT" VerticalAlignment=" Center" Width="400" Margin="10,12,-22,16.667" Height="30"/>
         <TextBox x:Name="txtUsername" Background=" White" Foreground=" Black" FontSize=" 20" Margin="10,43.667,10,45.667" Grid.Row="4" Grid.RowSpan="2"/>
         <PasswordBox x:Name="txtPassword" Background=" White" Foreground=" Black" FontSize="20" Margin="10,43,10,47" Grid.Row="5" Grid.RowSpan="2"/>
-        <Button Content="Submit" BorderBrush="White" Background="White" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="131,53.333,140,0" Grid.Row="6" Height="55" Width="117" Grid.RowSpan="2">
+        <Button Content="Submit" BorderBrush="White" Background="White" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="131,53.333,140,0" Grid.Row="6" Height="55" Width="117" Grid.RowSpan="2" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="30"/>

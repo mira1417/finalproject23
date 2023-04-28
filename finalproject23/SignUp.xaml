@@ -34,7 +34,7 @@
         <TextBox x:Name="txtSecond_name" Background=" White" Foreground=" Black" FontSize=" 20" Margin="10,32,10,59" Grid.Row="5" Grid.RowSpan="2"/>
         <TextBox x:Name="txtEmail" Background=" White" Foreground=" Black" FontSize=" 20" Margin="10,32,10,59" Grid.Row="6" Grid.RowSpan="2"/>
         <TextBox x:Name="txtUsername" Background=" White" Foreground=" Black" FontSize=" 20" Margin="10,32,10,59" Grid.Row="7" Grid.RowSpan="2"/>
-        <Button Content="Submit" Background="White" BorderBrush="White" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="127,10.333,144,0" Grid.Row="12" Height="55" Grid.RowSpan="2" Width="117">
+        <Button Content="Submit" Background="White" BorderBrush="White" Foreground=" Black" FontSize="20" HorizontalAlignment=" Center" VerticalAlignment="Top" FontFamily="Monospac821 BT" Margin="127,10.333,144,0" Grid.Row="12" Height="55" Grid.RowSpan="2" Width="117" Click="Button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="30"/>
